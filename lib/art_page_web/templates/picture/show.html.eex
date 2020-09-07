@@ -1,0 +1,16 @@
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @picture.title %>
+  </li>
+
+  <li>
+    <img src="<%= @picture.img_url %>">
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.picture_path(@conn, :edit, @picture) %></span>
+<span><%= link "Back", to: Routes.picture_path(@conn, :index) %></span>

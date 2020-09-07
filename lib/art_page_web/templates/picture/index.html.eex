@@ -1,0 +1,22 @@
+
+<%= for picture <- @pictures do %>
+
+  <div class="pic_div">
+    <h3><%= picture.title %></h3>
+    <img src="<%= picture.img_url %>"></td>
+    <span><%= link "Delete", to: Routes.picture_path(@conn, :delete, picture), method: :delete, data: [confirm: "Are you sure?"] %></span>
+  </div>
+
+
+
+<% end %>
+
+<div class="back_to_home">
+  <span><%= link "Back", to: Routes.page_path(@conn, :index) %></span>
+</div>
+
+<div class="new_pic_link">
+  <span><%= link "Upload New Picture", to: Routes.picture_path(@conn, :new) %></span>
+</div>
+
+

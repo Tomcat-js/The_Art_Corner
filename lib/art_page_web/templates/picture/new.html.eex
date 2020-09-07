@@ -1,0 +1,7 @@
+<h1>Upload a New Picture</h1>
+
+<div class="upload_div">
+<%= render "form.html", Map.put(assigns, :action, Routes.picture_path(@conn, :create)) %>
+</div>
+
+<span><%= link "Back", to: Routes.picture_path(@conn, :index) %></span>

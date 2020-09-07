@@ -1,0 +1,10 @@
+<section class="phx-hero">
+  <h1 class="description_heading"><%= gettext "Welcome to %{name}!", name: "The Art Corner" %></h1>
+  <h3 class="description">Art plays an important role in child development. Artistic activities help children learn other subjects such as reading and maths. It also promotes visual, motor and social development while giving them an outlet to express their feelings and emotions. Keep all your child’s masterpieces safe in <br> The Art Corner. </h3>
+</section>
+
+<section class="gallery_link">
+  <span ><%= link "View Gallery", to: Routes.picture_path(@conn, :index) %></span>
+</section>
+
+

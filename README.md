@@ -1,20 +1,16 @@
-# ArtPage
+# The Art Page 
 
-To start your Phoenix server:
+## A Home for your Child’s Imagination .  [See Here](https://intense-ridge-92004.herokuapp.com/ )
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+### Description 
+“The Art Corner” is an idea for a potential feature in an education based application. It is simply an area for educators to upload their student’s artwork creating a gallery for parents to observe from their smartphone or PC. 
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### Features and Technologies 
+* HTML
+* CSS
+* Phoenix
+* Elixir 
+* Responsive design
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+![Pic](https://imgur.com/LWyDrVm.png)
+![Pic](https://imgur.com/a/plKnTKb.png)

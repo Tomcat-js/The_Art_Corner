@@ -13,4 +13,4 @@
 * Responsive design
 
 ![Pic](https://imgur.com/LWyDrVm.png)
-![Pic](https://imgur.com/a/plKnTKb.png)
+![Pic](https://imgur.com/O4nA0Uy.png)
